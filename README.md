@@ -5,7 +5,7 @@ Parent pom project that allows you to publish your libraries easily.
 [![rultor](https://www.rultor.com/b/yegor256/rultor)](https://www.rultor.com/p/portlek/ppom)
 
 [![Build Status](https://travis-ci.com/portlek/ppom.svg?branch=master)](https://travis-ci.com/portlek/ppom)
-![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/ppom?label=version)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/ppom?label=version)](https://repo1.maven.org/maven2/io/github/portlek/ppom/)
 
 ## Setup
 
