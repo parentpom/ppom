@@ -14,14 +14,13 @@ jobs:
 
     - name: 'Get previous tag'
       id: previoustag
-      run: |
-        echo "::set-output name=previousversion::$(git for-each-ref refs/tags/ --count=1 --sort=-version:refname --format='%(refname:short)')"
+      uses: "WyriHaximus/github-action-get-previous-tag@master"
 
     - name: 'Get next minor version'
       id: semvers
       uses: "WyriHaximus/github-action-next-semvers@v1"
       with:
-        version: ${{ steps.previoustag.outputs.previousversion }}
+        version: ${{ steps.previoustag.outputs.tag }}
 
     - name: 'Echo the next version'
       run: |
