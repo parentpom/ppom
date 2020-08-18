@@ -19,3 +19,13 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B package -ntp
+
+    - name: Increment Step Patch
+      id: increment-semver-patch
+      uses: Benbentwo/increment-semver@master
+      with:
+        version-level: '-p'
+
+    - name: Echo the next version
+      run: |
+        echo ${{ steps.increment-semver-patch.outputs.version }}
