@@ -1,16 +1,26 @@
 name: Publish
 
 on:
-  push:
+  pull_request:
+    types: [closed]
     branches: master
 
 jobs:
   generate:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
 
     - uses: actions/checkout@v2.3.2
 
-    - name: Version Bump
-      uses: opspresso/action-version@v0.2.5
+    - name: Version Managment
+      id: nextversion
+      uses: PssbleTrngle/VersionManagment@v1.0.8
+      with:
+        token: ${{secrets.GITHUB_TOKEN}}
+        fallback: '0.0.1'
+
+    - name: echo
+      run: |
+        echo ${{steps.nextversion.outputs.next}}
