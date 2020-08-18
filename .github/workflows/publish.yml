@@ -2,7 +2,7 @@ name: Publish
 
 on:
   pull_request:
-    types: [closed, labeled]
+    types: [closed]
     branches: master
 
 jobs:
