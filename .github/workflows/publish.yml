@@ -20,6 +20,8 @@ jobs:
     - name: calculate next version
       id: version
       uses: patrickjahns/version-drafter-action@v1.1.1
+      with:
+        config-name: version-drafter.yml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
