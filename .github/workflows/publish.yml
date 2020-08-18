@@ -17,7 +17,6 @@ jobs:
     - name: Increment Step Patch
       id: increment-semver-patch
       uses: Benbentwo/increment-semver@master
-      if: github.
       with:
         version-level: '-p'
 
