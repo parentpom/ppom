@@ -17,15 +17,12 @@ jobs:
       with:
         java-version: 1.8
 
-    - name: Build with Maven
-      run: mvn -B package -ntp
+    - name: calculate next version
+      id: version
+      uses: patrickjahns/version-drafter-action@v1.1.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Increment Step Patch
-      id: increment-semver-patch
-      uses: Benbentwo/increment-semver@master
-      with:
-        version-level: '-p'
-
-    - name: Echo the next version
+    - name: echo calculated version
       run: |
-        echo ${{ steps.increment-semver-patch.outputs.version }}
+        echo "version: ${{ steps.version.outputs.next-version }}"
