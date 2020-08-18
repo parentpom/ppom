@@ -21,7 +21,7 @@ jobs:
       id: semvers
       uses: "WyriHaximus/github-action-next-semvers@v1"
       with:
-        version: ${{ steps.previoustag.outputs.tag }}
+        version: $previousversion
 
     - name: 'Echo the next version'
       run: |
