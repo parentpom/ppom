@@ -24,7 +24,7 @@ jobs:
         default-fragment: bug
 
     - name: Minor
-      if: ${{ !contains(github.event.pull_request.labels.*.names, 'bug') }}
+      if: ${{ !contains(github.event.pull_request.labels.*.names, 'minor') }}
       id: minor
       uses: PssbleTrngle/VersionManagment@v1.0.8
       with:
@@ -33,7 +33,7 @@ jobs:
         default-fragment: minor
 
     - name: Major
-      if: ${{ !contains(github.event.pull_request.labels.*.names, 'bug') }}
+      if: ${{ !contains(github.event.pull_request.labels.*.names, 'major') }}
       id: major
       uses: PssbleTrngle/VersionManagment@v1.0.8
       with:
