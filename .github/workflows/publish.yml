@@ -43,6 +43,6 @@ jobs:
 
     - name: echo
       run: |
-        echo Test: ${{steps.nextversion.outputs.next}}
-        echo Test: ${{steps.nextversion.outputs.next}}
-        echo Test: ${{steps.nextversion.outputs.next}}
+        echo Test: ${{steps.bug.outputs.next}}
+        echo Test: ${{steps.minor.outputs.next}}
+        echo Test: ${{steps.major.outputs.next}}
