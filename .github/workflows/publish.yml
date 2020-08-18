@@ -15,7 +15,7 @@ jobs:
     - name: 'Get Previous tag'
       id: previoustag
       run: |
-        version=$(git for-each-ref refs/tags/ --count=1 --sort=-version:refname --format='%(refname:short)')
+        $version=$(git for-each-ref refs/tags/ --count=1 --sort=-version:refname --format='%(refname:short)')
         echo ::set-output name=previousversion::$(version)
 
     - name: 'Get next minor version'
