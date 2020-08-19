@@ -21,6 +21,10 @@ jobs:
         token: ${{secrets.GITHUB_TOKEN}}
         fallback: '0.0.1'
 
-    - name: echo
-      run: |
-        echo Test: ${{steps.nextversion.outputs.next}}
+    - uses: rishabhgupta/git-action-issue@v2
+      id: Issue
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: '${{ steps.nextversion.outputs.next }}'
+          body: '@rultor hello!'
+          assignees: 'portlek'
