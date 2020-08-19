@@ -21,10 +21,9 @@ jobs:
         token: ${{secrets.GITHUB_TOKEN}}
         fallback: '0.0.1'
 
-    - uses: rishabhgupta/git-action-issue@v2
-      id: Issue
+    - name: Wait for build to succeed
+      uses: fountainhead/action-wait-for-check@v1.0.0
+      id: wait-for-build
       with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          title: '${{ steps.nextversion.outputs.next }}'
-          body: '@rultor hello!'
-          assignees: 'portlek'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        checkName: Publish
