@@ -31,5 +31,6 @@ jobs:
 
     - name: Publish
       run: |
+        [[ "${{ github.event.release.tag_name }}" =~ ^[0-9]+(\.[0-9]+)*$ ]] || exit -1
         mvn versions:set "-DnewVersion=${{ github.event.release.tag_name }}"
         mvn clean deploy --errors -ntp -B
