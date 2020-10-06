@@ -17,10 +17,18 @@ jobs:
       with:
         java-version: 1.8
 
-    - name: action-maven-publish
-      uses: samuelmeuli/action-maven-publish@v1.4.0
+    - name: Import GPG key
+      id: import_gpg
+      uses: crazy-max/ghaction-import-gpg@v3
       with:
-        gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
-        gpg_passphrase: ${{ secrets.GPG_PASSPHRASE }}
-        nexus_username: ${{ secrets.SONATYPE_USERNAME }}
-        nexus_password: ${{ secrets.SONATYPE_PASSWORD }}
+        gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+        passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
+    - name: Generate settings.xml for Maven Builds
+      uses: whelk-io/maven-settings-xml-action@v12
+      with:
+        servers: '[{ "id": "oss.sonatype.org", "username": "${{ secrets.SONATYPE_USERNAME }}", "password": "${{ secrets.SONATYPE_PASSWORD }}" }]'
+
+    - name: Publish
+      run: |
+        mvn deploy --errors --settings /home/r/settings.xml
