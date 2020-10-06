@@ -31,4 +31,4 @@ jobs:
 
     - name: Publish
       run: |
-        mvn deploy --errors
+        mvn clean deploy --errors -ntp -B
