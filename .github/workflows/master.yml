@@ -16,8 +16,8 @@ jobs:
       with:
         java-version: 1.8
 
-#     - name: Build with Maven
-#       run: mvn install -Dgpg.skip=true -B -ntp
+    - name: Build with Maven
+      run: mvn install -Dgpg.skip=true -B -ntp
 
     - uses: actions-ecosystem/action-get-latest-tag@v1
       id: previoustag
@@ -33,4 +33,4 @@ jobs:
         echo ${{ steps.semvers.outputs.patch }}
 #       uses: simpleactions/create-tag@v1.0.0
 #       with:
-#         tag: ${{ steps.semantic.outputs.release-patch }}
+#         tag: ${{ steps.semvers.outputs.patch }}
