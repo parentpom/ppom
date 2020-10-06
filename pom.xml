@@ -6,7 +6,7 @@
 
     <groupId>io.github.portlek</groupId>
     <artifactId>ppom</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.8.5</version>
     <name>ppom</name>
     <packaging>pom</packaging>
     <description>Parent pom project that allows you to publish your libraries easily.</description>
@@ -166,13 +166,6 @@
                         <goals>
                             <goal>sign</goal>
                         </goals>
-                        <configuration>
-                            <executable>${gpg.executable}</executable>
-                            <passphrase>${gpg.passphrase}</passphrase>
-                            <keyname>${gpg.keyname}</keyname>
-                            <homedir>${gpg.homedir}</homedir>
-                            <useAgent>true</useAgent>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
