@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Cancel Previous Workflow Runs
         uses: n1hility/cancel-previous-runs@v2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v2
 
@@ -54,8 +56,8 @@ jobs:
         with:
           servers: '[{ "id": "oss.sonatype.org", "username": "${{ secrets.SONATYPE_USERNAME }}", "password": "${{ secrets.SONATYPE_PASSWORD }}"}]'
 
-      - name: Publish
+      - name: Publish with Maven
         run: |
-          [[ "${{ github.event.release.tag_name }}" =~ ^[0-9]+(\.[0-9]+)*$ ]] || exit -1
-          mvn versions:set "-DnewVersion=${{ github.event.release.tag_name }}" -ntp -B
+          [[ "${{ steps.bump-semver.outputs.new_version }}" =~ ^[0-9]+(\.[0-9]+)*$ ]] || exit -1
+          mvn versions:set "-DnewVersion=${{ steps.bump-semver.outputs.new_version }}" -ntp -B
           mvn clean deploy -ntp -B
