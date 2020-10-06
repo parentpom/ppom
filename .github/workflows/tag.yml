@@ -5,7 +5,7 @@ on:
     types: [closed]
 
 jobs:
-  release:
+  tag:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
