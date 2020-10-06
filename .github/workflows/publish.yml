@@ -55,7 +55,7 @@ jobs:
           [[ "${{ steps.bump-semver.outputs.new_version }}" =~ ^[0-9]+(\.[0-9]+)*$ ]] || exit -1
           mvn versions:set "-DnewVersion=${{ steps.bump-semver.outputs.new_version }}" -ntp -B
           mvn clean install -ntp -B
-          sleep 30s
+          sleep 60s
           mvn clean deploy -ntp -B
 
       - name: Create a Release
