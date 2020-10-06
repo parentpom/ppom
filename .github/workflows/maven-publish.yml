@@ -31,4 +31,6 @@ jobs:
 
     - name: Publish
       run: |
+        echo ${{ github.event.release.tag_name }}
+        # mvn versions:set "-DnewVersion=${{ github.event.release.tag_name }}"
         mvn clean deploy --errors -ntp -B
