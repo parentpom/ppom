@@ -26,7 +26,7 @@ jobs:
       uses: WyriHaximus/github-action-next-semvers@v1.0
       id: semvers
       with:
-        version: ${{ steps.previoustag.outputs.patch }}
+        version: ${{ steps.previoustag.outputs.tag }}
 
     - name: Create an Tag
       run: |
