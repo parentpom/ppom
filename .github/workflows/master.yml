@@ -21,11 +21,14 @@ jobs:
     - name: Build with Maven
       run: mvn install -Dgpg.skip=true -B -ntp
 
-    - uses: codfish/semantic-release-action@master
+    - name: Next SemVers
+      uses: WyriHaximus/github-action-next-semvers@v1.0
+      with:
+        version: ${{ steps.previoustag.outputs.tag }}
 
     - name: Create an Tag
       run: |
-        echo ${{ steps.semantic.outputs.release-patch }}
+        echo ${{ steps.semvers.outputs.patch }}
 #       uses: simpleactions/create-tag@v1.0.0
 #       with:
 #         tag: ${{ steps.semantic.outputs.release-patch }}
