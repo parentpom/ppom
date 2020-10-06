@@ -21,9 +21,9 @@ jobs:
     - name: Build with Maven
       run: mvn install -Dgpg.skip=true -B -ntp
 
-    - name: 'Get Previous tag'
+    - name: Get Latest Tag
+      uses: WyriHaximus/github-action-get-previous-tag@1.0.0
       id: previoustag
-      uses: "WyriHaximus/github-action-get-previous-tag@master"
 
     - name: Next SemVers
       uses: WyriHaximus/github-action-next-semvers@v1.0
