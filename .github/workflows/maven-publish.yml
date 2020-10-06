@@ -31,4 +31,4 @@ jobs:
 
     - name: Publish
       run: |
-        mvn deploy --errors --settings /home/r/settings.xml
+        mvn deploy --errors --settings
