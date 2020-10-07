@@ -13,7 +13,7 @@ jobs:
         uses: actions-ecosystem/action-release-label@v1
         id: release-label
 
-      - name: Cancel if the the p.r. does not have release label.
+      - name: Cancel if the the p.r. does not have the release labels.
         if: ${{ steps.release-label.outputs.level == null }}
         run: exit 1
 
