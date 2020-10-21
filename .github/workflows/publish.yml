@@ -59,7 +59,8 @@ jobs:
 
       - name: Publish with Maven
         run: |
-          mvn versions:set "-DnewVersion=${{ steps.bump-semver.outputs.new_version }}" deploy -ntp -B
+          mvn versions:set "-DnewVersion=${{ steps.bump-semver.outputs.new_version }}"
+          mvn deploy -ntp -B
 
       - name: Create a Release
         uses: actions/create-release@v1.1.4
