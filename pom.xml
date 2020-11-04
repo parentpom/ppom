@@ -215,7 +215,7 @@
     <dependency>
       <groupId>org.cactoos</groupId>
       <artifactId>cactoos</artifactId>
-      <version>0.46</version>
+      <version>0.47</version>
       <scope>test</scope>
     </dependency>
     <dependency>
