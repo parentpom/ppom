@@ -141,16 +141,6 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-    <repository>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-      <id>oss.sonatype.org</id>
-    </repository>
-    <snapshotRepository>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      <id>oss.sonatype.org</id>
-    </snapshotRepository>
-  </distributionManagement>
   <repositories>
     <repository>
       <url>https://repo.codemc.org/repository/maven-public</url>
@@ -283,6 +273,16 @@
           </plugin>
         </plugins>
       </build>
+      <distributionManagement>
+        <repository>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          <id>oss.sonatype.org</id>
+        </repository>
+        <snapshotRepository>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          <id>oss.sonatype.org</id>
+        </snapshotRepository>
+      </distributionManagement>
       <id>sonatype</id>
     </profile>
   </profiles>
