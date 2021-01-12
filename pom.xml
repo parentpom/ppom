@@ -62,28 +62,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
   </properties>
-  <profiles>
-    <profile>
-      <id>coverage</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.6</version>
-            <executions>
-              <execution>
-                <id>prepare-agent</id>
-                <goals>
-                  <goal>prepare-agent</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
   <build>
     <plugins>
       <plugin>
@@ -137,7 +115,7 @@
         <version>3.2.4</version>
         <executions>
           <execution>
-            <phase>verify</phase>
+            <phase>package</phase>
             <goals>
               <goal>shade</goal>
             </goals>
@@ -155,48 +133,6 @@
         <configuration>
           <generateBackupPoms>false</generateBackupPoms>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.8</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>oss.sonatype.org</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <stagingDescription>${project.version}</stagingDescription>
-          <stagingProgressTimeoutMinutes>10</stagingProgressTimeoutMinutes>
-        </configuration>
-        <executions>
-          <execution>
-            <id>deploy-to-sonatype</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy</goal>
-              <goal>release</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>1.6</version>
-        <executions>
-          <execution>
-            <id>sign-artifacts</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>sign</goal>
-            </goals>
-            <configuration>
-              <gpgArguments>
-                <arg>--pinentry-mode</arg>
-                <arg>loopback</arg>
-              </gpgArguments>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -279,4 +215,75 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+    <profile>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+            <executions>
+              <execution>
+                <id>prepare-agent</id>
+                <goals>
+                  <goal>prepare-agent</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+      <id>coverage</id>
+    </profile>
+    <profile>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.8</version>
+            <extensions>true</extensions>
+            <configuration>
+              <serverId>oss.sonatype.org</serverId>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <stagingDescription>${project.version}</stagingDescription>
+              <stagingProgressTimeoutMinutes>10</stagingProgressTimeoutMinutes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>deploy-to-sonatype</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy</goal>
+                  <goal>release</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <configuration>
+                  <gpgArguments>
+                    <arg>--pinentry-mode</arg>
+                    <arg>loopback</arg>
+                  </gpgArguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+      <id>sonatype</id>
+    </profile>
+  </profiles>
 </project>
