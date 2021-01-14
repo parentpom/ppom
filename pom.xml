@@ -238,7 +238,7 @@
               <serverId>oss.sonatype.org</serverId>
               <nexusUrl>https://oss.sonatype.org/</nexusUrl>
               <stagingDescription>${project.version}</stagingDescription>
-              <stagingProgressTimeoutMinutes>10</stagingProgressTimeoutMinutes>
+              <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
             </configuration>
             <executions>
               <execution>
