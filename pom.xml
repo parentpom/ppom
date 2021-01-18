@@ -177,7 +177,7 @@
     <dependency>
       <groupId>org.llorllale</groupId>
       <artifactId>cactoos-matchers</artifactId>
-      <version>0.22</version>
+      <version>0.23</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
