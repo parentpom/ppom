@@ -154,6 +154,10 @@
       <url>https://jitpack.io</url>
       <id>jitpack</id>
     </repository>
+    <repository>
+      <url>https://oss.sonatype.org/content/groups/public/</url>
+      <id>sonatype</id>
+    </repository>
   </repositories>
   <dependencies>
     <dependency>
