@@ -32,7 +32,7 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>ppom</name>
   <packaging>pom</packaging>
-  <description>Parent pom project that allows you to publish your libraries easily.</description>
+  <description>A parent pom project that allows you to publish your Java projects to sonatype easily.</description>
   <url>https://github.com/portlek/ppom</url>
   <licenses>
     <license>
