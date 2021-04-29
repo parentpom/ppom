@@ -2,7 +2,7 @@
 <!--
   ~ MIT License
   ~
-  ~ Copyright (c) 2020 Hasan Demirtaş
+  ~ Copyright (c) 2021 Hasan Demirtaş
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -29,10 +29,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.portlek</groupId>
   <artifactId>ppom</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>ppom</name>
   <packaging>pom</packaging>
-  <description>Parent pom project that allows you to publish your libraries easily.</description>
+  <description>A parent pom project that allows you to publish your Java projects to sonatype easily.</description>
   <url>https://github.com/portlek/ppom</url>
   <licenses>
     <license>
@@ -74,6 +74,7 @@
         </configuration>
       </plugin>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>3.2.1</version>
         <executions>
@@ -143,20 +144,16 @@
   </build>
   <repositories>
     <repository>
-      <url>https://repo.codemc.org/repository/maven-public</url>
+      <url>https://repo.codemc.org/repository/maven-public/</url>
       <id>codemc</id>
     </repository>
     <repository>
-      <url>https://repo.codemc.org/repository/nms</url>
+      <url>https://repo.codemc.org/repository/nms/</url>
       <id>nms</id>
     </repository>
     <repository>
-      <url>https://jitpack.io</url>
+      <url>https://jitpack.io/</url>
       <id>jitpack</id>
-    </repository>
-    <repository>
-      <url>https://oss.sonatype.org/content/groups/public/</url>
-      <id>sonatype</id>
     </repository>
   </repositories>
   <dependencies>
@@ -183,12 +180,6 @@
       <artifactId>cactoos-matchers</artifactId>
       <version>0.24</version>
       <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.cactoos</groupId>
-          <artifactId>cactoos</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
@@ -206,6 +197,36 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.7.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-core</artifactId>
+      <version>1.29</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-generator-annprocess</artifactId>
+      <version>1.29</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-library</artifactId>
+      <version>2.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava-testlib</artifactId>
+      <version>30.1.1-jre</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>3.9.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
