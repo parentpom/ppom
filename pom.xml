@@ -294,7 +294,7 @@
             <configuration>
               <serverId>oss.sonatype.org</serverId>
               <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-              <stagingDescription>${project.version}</stagingDescription>
+              <stagingDescription>${project.name} v${project.version}</stagingDescription>
               <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
             </configuration>
             <executions>
