@@ -60,8 +60,3 @@ jobs:
           body: '[Changelog](https://github.com/portlek/ppom/compare/${{ steps.version.outputs.release }}...${{ steps.bump-semver.outputs.new_version }})'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions-js/push@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          message: 'v${{ steps.bump-semver.outputs.new_version }}'
