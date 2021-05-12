@@ -61,6 +61,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
-          git commit -am "v${{ steps.bump-semver.outputs.new_version }}"
-          git push
+      - uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: 'v${{ steps.bump-semver.outputs.new_version }}'
