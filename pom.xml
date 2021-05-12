@@ -83,7 +83,6 @@
     <maven-gpg.version>3.0.1</maven-gpg.version>
     <maven-checkstyle.version>3.1.2</maven-checkstyle.version>
     <checkstyle.version>8.42</checkstyle.version>
-    <!-- Version of Dependencies of @portlek -->
   </properties>
   <build>
     <plugins>
