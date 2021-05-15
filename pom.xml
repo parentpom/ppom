@@ -311,78 +311,91 @@
         <artifactId>lombok</artifactId>
         <version>${lombok.version}</version>
         <scope>provided</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
         <version>${annotations.version}</version>
         <scope>provided</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.cactoos</groupId>
         <artifactId>cactoos</artifactId>
         <version>${cactoos.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.llorllale</groupId>
         <artifactId>cactoos-matchers</artifactId>
         <version>${cactoos-matchers.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.github.seeseemelk</groupId>
         <artifactId>MockBukkit-v1.16</artifactId>
         <version>${mockbukkit.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>${mockito.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-inline</artifactId>
         <version>${mockito.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-junit-jupiter</artifactId>
         <version>${mockito.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
         <version>${junit.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.openjdk.jmh</groupId>
         <artifactId>jmh-core</artifactId>
         <version>${jmh.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.openjdk.jmh</groupId>
         <artifactId>jmh-generator-annprocess</artifactId>
         <version>${jmh.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-library</artifactId>
         <version>${hamcrest.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava-testlib</artifactId>
         <version>${guava.version}</version>
         <scope>test</scope>
+        <optional>true</optional>
       </dependency>
     </dependencies>
   </dependencyManagement>
