@@ -196,7 +196,7 @@
             <extensions>true</extensions>
             <configuration>
               <serverId>oss.sonatype.org</serverId>
-              <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
               <stagingDescription>${project.name} v${project.version}</stagingDescription>
               <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
             </configuration>
@@ -235,11 +235,11 @@
       </build>
       <distributionManagement>
         <repository>
-          <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
           <id>oss.sonatype.org</id>
         </repository>
         <snapshotRepository>
-          <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
           <id>oss.sonatype.org</id>
         </snapshotRepository>
       </distributionManagement>
