@@ -26,7 +26,7 @@ jobs:
       - uses: pozetroninc/github-action-get-latest-release@v0.5.0
         id: version
         with:
-          owner: portlek
+          owner: parentpom
           repo: ppom
 
       - uses: actions-ecosystem/action-bump-semver@v1
@@ -57,6 +57,6 @@ jobs:
         with:
           tag_name: '${{ steps.bump-semver.outputs.new_version }}'
           name: '${{ steps.bump-semver.outputs.new_version }}'
-          body: '[Changelog](https://github.com/portlek/ppom/compare/${{ steps.version.outputs.release }}...${{ steps.bump-semver.outputs.new_version }})'
+          body: '[Changelog](https://github.com/parentpom/ppom/compare/${{ steps.version.outputs.release }}...${{ steps.bump-semver.outputs.new_version }})'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
