@@ -9,7 +9,7 @@
 
 ```xml
 <parent>
-  <groupId>io.github.portlek</groupId>
+  <groupId>io.github.parentpom</groupId>
   <artifactId>ppom</artifactId>
   <version>${version}</version>
 </parent>
