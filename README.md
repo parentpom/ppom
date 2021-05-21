@@ -1,7 +1,7 @@
 [![idea](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 
-![master](https://github.com/portlek/ppom/workflows/build/badge.svg)
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/ppom?label=version)](https://repo1.maven.org/maven2/io/github/portlek/ppom/)
+![master](https://github.com/parentpom/ppom/workflows/build/badge.svg)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.parentpom/ppom?label=version)](https://repo1.maven.org/maven2/io/github/parentpom/ppom/)
 
 ## How to Use
 
@@ -9,7 +9,7 @@
 
 ```xml
 <parent>
-  <groupId>io.github.portlek</groupId>
+  <groupId>io.github.parentpom</groupId>
   <artifactId>ppom</artifactId>
   <version>${version}</version>
 </parent>
