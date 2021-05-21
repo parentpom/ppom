@@ -72,7 +72,7 @@
     <annotations.version>21.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
-    <mockbukkit.version>1.0.0</mockbukkit.version>
+    <mockbukkit.version>1.0.1</mockbukkit.version>
     <mockito.version>3.10.0</mockito.version>
     <junit.version>5.7.2</junit.version>
     <jmh.version>1.31</jmh.version>
