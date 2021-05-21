@@ -69,7 +69,7 @@
     <versions-maven.version>2.8.1</versions-maven.version>
     <maven-surefire.version>2.22.2</maven-surefire.version>
     <lombok.version>1.18.20</lombok.version>
-    <annotations.version>20.1.0</annotations.version>
+    <annotations.version>21.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
     <mockbukkit.version>1.0.1</mockbukkit.version>
