@@ -120,6 +120,7 @@
     <nexus.version>1.6.8</nexus.version>
     <checkstyle.version>8.42</checkstyle.version>
     <jacoco.version>0.8.7</jacoco.version>
+    <chalk.version>1.0.2</chalk.version>
   </properties>
   <build>
     <plugins>
@@ -641,6 +642,12 @@
         <groupId>com.flowpowered</groupId>
         <artifactId>flow-nbt</artifactId>
         <version>${flow-nbt.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>com.github.tomas-langer</groupId>
+        <artifactId>chalk</artifactId>
+        <version>${chalk.version}</version>
         <optional>true</optional>
       </dependency>
       <dependency>
