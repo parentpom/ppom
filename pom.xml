@@ -652,9 +652,9 @@
         <optional>true</optional>
       </dependency>
       <dependency>
-          <groupId>io.lettuce</groupId>
-          <artifactId>lettuce-core</artifactId>
-          <version>${lettuce.version}</version>
+        <groupId>io.lettuce</groupId>
+        <artifactId>lettuce-core</artifactId>
+        <version>${lettuce.version}</version>
       </dependency>
       <dependency>
         <groupId>world.bentobox</groupId>
