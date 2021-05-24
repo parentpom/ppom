@@ -655,6 +655,7 @@
         <groupId>io.lettuce</groupId>
         <artifactId>lettuce-core</artifactId>
         <version>${lettuce.version}</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>world.bentobox</groupId>
