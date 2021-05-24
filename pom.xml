@@ -64,6 +64,7 @@
     <mongo-java-driver.version>3.12.8</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.2.3</mongodb-driver-sync.version>
     <jedis.version>3.6.0</jedis.version>
+    <lettuce.version>6.1.2.RELEASE</lettuce.version>
     <jongo.version>1.4.1</jongo.version>
     <!-- File/Configuration Dependencies -->
     <configurate.version>4.1.1</configurate.version>
@@ -648,6 +649,12 @@
         <groupId>com.github.tomas-langer</groupId>
         <artifactId>chalk</artifactId>
         <version>${chalk.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>io.lettuce</groupId>
+        <artifactId>lettuce-core</artifactId>
+        <version>${lettuce.version}</version>
         <optional>true</optional>
       </dependency>
       <dependency>
