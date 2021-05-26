@@ -72,7 +72,7 @@
     <snakeyaml.version>1.28</snakeyaml.version>
     <jackson.version>2.12.3</jackson.version>
     <nbt.version>6.1</nbt.version>
-    <zip4j.version>2.7.0</zip4j.version>
+    <zip4j.version>2.8.0</zip4j.version>
     <zstd.version>1.4.9-5</zstd.version>
     <flow-nbt.version>2.0.0</flow-nbt.version>
     <!-- Log/Console Dependencies -->
