@@ -1,0 +1,26 @@
+name: up
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  update:
+    if: github.event.issue.title == 'update' && github.event.sender.login == 'portlek'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: 'update'
+
+      - uses: actions/checkout@v2
+        with:
+          ref: 'update'
+
+      - uses: fregante/setup-git-user@v1
+
+      - run: |
+          git commit -am "update" --allow-empty
+          git push
