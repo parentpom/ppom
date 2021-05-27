@@ -37,7 +37,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <checkstyle.excludes/>
     <!-- Minecraft Library Dependencies -->
     <xseries.version>7.9.1.1</xseries.version>
     <minimessage.version>4.1.0-SNAPSHOT</minimessage.version>
@@ -361,7 +360,6 @@
               <consoleOutput>true</consoleOutput>
               <failsOnError>true</failsOnError>
               <linkXRef>false</linkXRef>
-              <excludes>${checkstyle.excludes}</excludes>
             </configuration>
           </plugin>
         </plugins>
