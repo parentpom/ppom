@@ -24,12 +24,3 @@ jobs:
       - run: |
           git commit -am "update" --allow-empty
           git push
-
-      - uses: repo-sync/pull-request@v2
-        with:
-          source_branch: update
-          pr_body: "Closes #170"
-          pr_title: "update"
-          pr_label: "automerge,release/patch"
-          pr_allow_empty: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
