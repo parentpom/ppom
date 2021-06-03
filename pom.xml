@@ -83,7 +83,7 @@
     <slf4j.version>1.7.30</slf4j.version>
     <disruptor.version>3.4.4</disruptor.version>
     <!-- Networking/Protocol Dependencies-->
-    <protobuf.version>3.17.1</protobuf.version>
+    <protobuf.version>3.17.2</protobuf.version>
     <httpclient.version>4.5.13</httpclient.version>
     <httpclient-cache.version>4.5.13</httpclient-cache.version>
     <httpmine.version>4.5.13</httpmine.version>
