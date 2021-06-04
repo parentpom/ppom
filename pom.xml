@@ -104,7 +104,7 @@
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
     <mockbukkit.version>1.1.0</mockbukkit.version>
-    <mockito.version>3.10.0</mockito.version>
+    <mockito.version>3.11.0</mockito.version>
     <junit.version>5.7.2</junit.version>
     <jmh.version>1.32</jmh.version>
     <hamcrest.version>2.2</hamcrest.version>
