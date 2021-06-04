@@ -59,6 +59,9 @@
     <protocollib.version>4.6.1-SNAPSHOT</protocollib.version>
     <commandapi.version>5.12</commandapi.version>
     <itemsadder-api.version>2.3.8</itemsadder-api.version>
+    <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
+    <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
+    <holographicdisplays.version>2.4.0</holographicdisplays.version>
     <!-- Database Dependencies -->
     <hikari.version>4.0.3</hikari.version>
     <mongo-java-driver.version>3.12.8</mongo-java-driver.version>
@@ -250,6 +253,10 @@
     <repository>
       <url>https://repo.glaremasters.me/repository/concuncan/</url>
       <id>glaremasters</id>
+    </repository>
+    <repository>
+      <id>pl3x-repo</id>
+      <url>https://repo.pl3x.net/</url>
     </repository>
   </repositories>
   <profiles>
@@ -655,6 +662,27 @@
         <groupId>io.lettuce</groupId>
         <artifactId>lettuce-core</artifactId>
         <version>${lettuce.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>com.gmail.filoghost.holographicdisplays</groupId>
+        <artifactId>holographicdisplays-api</artifactId>
+        <version>${holographicdisplays.version}</version>
+        <scope>provided</scope>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>com.SirBlobman.combatlogx</groupId>
+        <artifactId>CombatLogX-API</artifactId>
+        <version>${combatlogx.version}</version>
+        <scope>provided</scope>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>net.pl3x.map</groupId>
+        <artifactId>pl3xmap-api</artifactId>
+        <version>${pl3xmap.version}</version>
+        <scope>provided</scope>
         <optional>true</optional>
       </dependency>
       <dependency>
