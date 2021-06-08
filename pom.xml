@@ -54,7 +54,7 @@
     <worldedit.version>7.2.5</worldedit.version>
     <item-nbt.version>2.7.1</item-nbt.version>
     <placeholderapi.version>2.10.9</placeholderapi.version>
-    <worldguard.version>7.0.5-SNAPSHOT</worldguard.version>
+    <worldguard.version>7.0.5</worldguard.version>
     <fawe.version>1.16-687</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.6.1-SNAPSHOT</protocollib.version>
