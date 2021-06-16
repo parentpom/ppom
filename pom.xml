@@ -45,6 +45,7 @@
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>2.2.1</bstats.version>
     <commodore.version>1.10</commodore.version>
+    <cloud.version>1.4.0</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
     <luckperms.version>5.3</luckperms.version>
     <vault.version>1.7</vault.version>
@@ -685,6 +686,12 @@
         <groupId>me.lucko</groupId>
         <artifactId>commodore</artifactId>
         <version>${commodore.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>cloud.commandframework</groupId>
+        <artifactId>cloud-paper</artifactId>
+        <version>${cloud.version}</version>
         <optional>true</optional>
       </dependency>
       <dependency>
