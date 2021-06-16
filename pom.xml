@@ -58,7 +58,7 @@
     <fawe.version>1.16-725</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.6.1-SNAPSHOT</protocollib.version>
-    <commandapi.version>5.12</commandapi.version>
+    <commandapi.version>6.0.2</commandapi.version>
     <itemsadder-api.version>2.3.8</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
@@ -778,13 +778,6 @@
         <groupId>com.comphenix.protocol</groupId>
         <artifactId>ProtocolLib</artifactId>
         <version>${protocollib.version}</version>
-        <scope>provided</scope>
-        <optional>true</optional>
-      </dependency>
-      <dependency>
-        <groupId>com.github.JorelAli.CommandAPI</groupId>
-        <artifactId>commandapi-core</artifactId>
-        <version>${commandapi.version}</version>
         <scope>provided</scope>
         <optional>true</optional>
       </dependency>
