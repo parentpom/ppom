@@ -64,7 +64,7 @@
     <itemsadder-api.version>2.3.8</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
-    <holographicdisplays.version>2.4.6</holographicdisplays.version>
+    <holographicdisplays.version>2.4.7</holographicdisplays.version>
     <!-- Database Dependencies -->
     <hikari.version>4.0.3</hikari.version>
     <mongo-java-driver.version>3.12.8</mongo-java-driver.version>
