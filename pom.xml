@@ -705,21 +705,25 @@
         <groupId>com.iridium</groupId>
         <artifactId>IridiumColorAPI</artifactId>
         <version>1.0.4</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>eu.okaeri</groupId>
         <artifactId>okaeri-hjson</artifactId>
         <version>${okaeri-hjson.version}</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.googlecode.json-simple</groupId>
         <artifactId>json-simple</artifactId>
         <version>${json-simple.version}</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.typesafe</groupId>
         <artifactId>config</artifactId>
         <version>${config.version}</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.gmail.filoghost.holographicdisplays</groupId>
