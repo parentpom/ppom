@@ -272,16 +272,16 @@
       <id>glaremasters</id>
     </repository>
     <repository>
-      <id>pl3x-repo</id>
       <url>https://repo.pl3x.net/</url>
+      <id>pl3x-repo</id>
     </repository>
     <repository>
-      <id>minecraft-repo</id>
       <url>https://libraries.minecraft.net/</url>
+      <id>minecraft-repo</id>
     </repository>
     <repository>
-      <id>savagelabs</id>
       <url>https://nexus.savagelabs.net/repository/maven-releases/</url>
+      <id>savagelabs</id>
     </repository>
   </repositories>
   <profiles>
