@@ -23,9 +23,8 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - name: 'Get Previous tag'
+      - uses: "WyriHaximus/github-action-get-previous-tag@v1"
         id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
       - uses: actions-ecosystem/action-bump-semver@v1
         id: bump-semver
