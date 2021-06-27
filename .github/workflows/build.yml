@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: "WyriHaximus/github-action-get-previous-tag@v1"
-        id: version
+      - uses: oprypin/find-latest-tag@v1.1.0
+        with:
+          repository: parent-pom/ppom
 
       - uses: actions/setup-java@v1
         with:
