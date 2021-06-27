@@ -13,10 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: oprypin/find-latest-tag@v1.1.0
-        with:
-          repository: parent-pom/ppom
-
       - uses: actions/setup-java@v1
         with:
           java-version: 1.8
