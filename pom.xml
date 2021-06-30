@@ -41,7 +41,7 @@
     <!-- Minecraft Library Dependencies -->
     <xseries.version>8.1.0</xseries.version>
     <minimessage.version>4.1.0-SNAPSHOT</minimessage.version>
-    <anvilgui.version>1.5.0-SNAPSHOT</anvilgui.version>
+    <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>2.2.1</bstats.version>
     <commodore.version>1.10</commodore.version>
