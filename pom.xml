@@ -59,7 +59,7 @@
     <worldguard.version>7.0.5</worldguard.version>
     <fawe.version>1.16-725</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
-    <protocollib.version>4.6.1-SNAPSHOT</protocollib.version>
+    <protocollib.version>4.7.0</protocollib.version>
     <commandapi.version>6.1.0</commandapi.version>
     <itemsadder-api.version>2.3.8</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
