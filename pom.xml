@@ -442,6 +442,30 @@
         <optional>true</optional>
       </dependency>
       <dependency>
+        <groupId>org.spongepowered</groupId>
+        <artifactId>configurate-gson</artifactId>
+        <version>${configurate.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.spongepowered</groupId>
+        <artifactId>configurate-hocon</artifactId>
+        <version>${configurate.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.spongepowered</groupId>
+        <artifactId>configurate-xml</artifactId>
+        <version>${configurate.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.spongepowered</groupId>
+        <artifactId>configurate-jackson</artifactId>
+        <version>${configurate.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
         <groupId>org.bstats</groupId>
         <artifactId>bstats-bukkit</artifactId>
         <version>${bstats.version}</version>
