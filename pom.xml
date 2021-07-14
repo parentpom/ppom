@@ -70,7 +70,7 @@
     <mongo-java-driver.version>3.12.8</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.2.3</mongodb-driver-sync.version>
     <jedis.version>3.6.1</jedis.version>
-    <lettuce.version>6.1.3.RELEASE</lettuce.version>
+    <lettuce.version>6.1.4.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
     <minio.version>8.2.2</minio.version>
     <morphia.version>2.2.1</morphia.version>
