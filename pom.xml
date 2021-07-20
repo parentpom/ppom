@@ -72,7 +72,7 @@
     <jedis.version>3.6.3</jedis.version>
     <lettuce.version>6.1.4.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
-    <minio.version>8.2.2</minio.version>
+    <minio.version>8.3.0</minio.version>
     <morphia.version>2.2.1</morphia.version>
     <!-- File/Configuration Dependencies -->
     <configurate.version>4.1.1</configurate.version>
@@ -81,7 +81,7 @@
     <jackson.version>2.12.4</jackson.version>
     <nbt.version>6.1</nbt.version>
     <zip4j.version>2.9.0</zip4j.version>
-    <zstd.version>1.5.0-2</zstd.version>
+    <zstd.version>1.5.0-3</zstd.version>
     <flow-nbt.version>2.0.0</flow-nbt.version>
     <okaeri-hjson.version>4.0.0</okaeri-hjson.version>
     <json-simple.version>1.1.1</json-simple.version>
