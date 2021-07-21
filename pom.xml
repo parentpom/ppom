@@ -49,7 +49,7 @@
     <!-- Minecraft Plugin Dependencies -->
     <luckperms.version>5.3</luckperms.version>
     <vault.version>1.7</vault.version>
-    <permissionsex.version>1.23.5-SNAPSHOT</permissionsex.version>
+    <permissionsex.version>2.0-SNAPSHOT</permissionsex.version>
     <groupmanager.version>2.2-SNAPSHOT</groupmanager.version>
     <bentobox-level.version>2.7.0</bentobox-level.version>
     <bentobox.version>1.17.1</bentobox.version>
@@ -274,6 +274,10 @@
     <repository>
       <url>https://repo.glaremasters.me/repository/concuncan/</url>
       <id>glaremasters</id>
+    </repository>
+    <repository>
+      <id>pex-repo</id>
+      <url>https://repo.glaremasters.me/repository/permissionsex/</url>
     </repository>
     <repository>
       <url>https://repo.pl3x.net/</url>
@@ -772,10 +776,10 @@
         <optional>true</optional>
       </dependency>
       <dependency>
-          <groupId>org.jetbrains.kotlin</groupId>
-          <artifactId>kotlin-stdlib</artifactId>
-          <version>${kotlin.version}</version>
-          <optional>true</optional>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-stdlib</artifactId>
+        <version>${kotlin.version}</version>
+        <optional>true</optional>
       </dependency>
       <dependency>
         <groupId>com.gmail.filoghost.holographicdisplays</groupId>
@@ -820,8 +824,8 @@
         <optional>true</optional>
       </dependency>
       <dependency>
-        <groupId>ru.tehkode</groupId>
-        <artifactId>PermissionsEx</artifactId>
+        <groupId>ca.stellardrift.permissionsex</groupId>
+        <artifactId>permissionsex-bukkit</artifactId>
         <version>${permissionsex.version}</version>
         <scope>provided</scope>
         <optional>true</optional>
