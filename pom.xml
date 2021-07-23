@@ -106,7 +106,7 @@
     <fastutil.version>8.5.4</fastutil.version>
     <commons-codec.version>1.15</commons-codec.version>
     <jasypt.version>1.9.3</jasypt.version>
-    <github-api.version>1.131</github-api.version>
+    <github-api.version>1.132</github-api.version>
     <commons-io.version>2.11.0</commons-io.version>
     <javaassist.version>3.28.0-GA</javaassist.version>
     <ben-manes-guava.version>3.0.3</ben-manes-guava.version>
