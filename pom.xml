@@ -111,7 +111,7 @@
     <javaassist.version>3.28.0-GA</javaassist.version>
     <ben-manes-guava.version>3.0.3</ben-manes-guava.version>
     <lombok.version>1.18.20</lombok.version>
-    <annotations.version>21.0.1</annotations.version>
+    <annotations.version>22.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
     <mockito.version>3.11.2</mockito.version>
