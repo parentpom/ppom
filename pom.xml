@@ -75,7 +75,7 @@
     <minio.version>8.3.0</minio.version>
     <morphia.version>2.2.1</morphia.version>
     <!-- File/Configuration Dependencies -->
-    <configurate.version>4.1.1</configurate.version>
+    <configurate.version>4.1.2</configurate.version>
     <gson.version>2.8.7</gson.version>
     <snakeyaml.version>1.29</snakeyaml.version>
     <jackson.version>2.12.4</jackson.version>
