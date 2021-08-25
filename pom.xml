@@ -114,7 +114,7 @@
     <annotations.version>22.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
-    <mockito.version>3.12.2</mockito.version>
+    <mockito.version>3.12.3</mockito.version>
     <mockbukkit.version>1.5.0</mockbukkit.version>
     <junit.version>5.7.2</junit.version>
     <jmh.version>1.33</jmh.version>
