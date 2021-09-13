@@ -109,7 +109,7 @@
     <github-api.version>1.133</github-api.version>
     <commons-io.version>2.11.0</commons-io.version>
     <javaassist.version>3.28.0-GA</javaassist.version>
-    <ben-manes-guava.version>3.0.3</ben-manes-guava.version>
+    <ben-manes-guava.version>3.0.4</ben-manes-guava.version>
     <lombok.version>1.18.20</lombok.version>
     <annotations.version>22.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
