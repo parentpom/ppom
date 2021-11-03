@@ -68,7 +68,7 @@
     <!-- Database Dependencies -->
     <hikari.version>5.0.0</hikari.version>
     <mongo-java-driver.version>3.12.10</mongo-java-driver.version>
-    <mongodb-driver-sync.version>4.3.3</mongodb-driver-sync.version>
+    <mongodb-driver-sync.version>4.3.4</mongodb-driver-sync.version>
     <jedis.version>3.7.0</jedis.version>
     <lettuce.version>6.1.5.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
