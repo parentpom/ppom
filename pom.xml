@@ -60,7 +60,7 @@
     <fawe.version>1.16-725</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.7.0</protocollib.version>
-    <commandapi.version>6.3.1</commandapi.version>
+    <commandapi.version>6.5.2</commandapi.version>
     <itemsadder-api.version>2.4.21</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
@@ -109,7 +109,7 @@
     <github-api.version>1.301</github-api.version>
     <commons-io.version>2.11.0</commons-io.version>
     <javaassist.version>3.28.0-GA</javaassist.version>
-    <ben-manes-guava.version>3.0.4</ben-manes-guava.version>
+    <ben-manes-guava.version>3.0.5</ben-manes-guava.version>
     <lombok.version>1.18.22</lombok.version>
     <annotations.version>23.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
