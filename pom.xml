@@ -53,14 +53,14 @@
     <groupmanager.version>2.2-SNAPSHOT</groupmanager.version>
     <bentobox-level.version>2.8.1</bentobox-level.version>
     <bentobox.version>1.19.0</bentobox.version>
-    <worldedit.version>7.2.7</worldedit.version>
+    <worldedit.version>7.2.8</worldedit.version>
     <item-nbt.version>2.8.0</item-nbt.version>
     <placeholderapi.version>2.10.10</placeholderapi.version>
     <worldguard.version>7.0.6</worldguard.version>
     <fawe.version>1.16-725</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.7.0</protocollib.version>
-    <commandapi.version>6.5.2</commandapi.version>
+    <commandapi.version>6.5.3</commandapi.version>
     <itemsadder-api.version>2.4.21</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
@@ -69,7 +69,7 @@
     <hikari.version>5.0.0</hikari.version>
     <mongo-java-driver.version>3.12.10</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.4.0</mongodb-driver-sync.version>
-    <jedis.version>3.7.0</jedis.version>
+    <jedis.version>3.7.1</jedis.version>
     <lettuce.version>6.1.5.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
     <minio.version>8.3.4</minio.version>
@@ -99,7 +99,7 @@
     <httpclient-cache.version>4.5.13</httpclient-cache.version>
     <httpmine.version>4.5.13</httpmine.version>
     <httpcore.version>4.4.15</httpcore.version>
-    <netty.version>4.1.71.Final</netty.version>
+    <netty.version>4.1.72.Final</netty.version>
     <pulsar.version>2.9.0</pulsar.version>
     <!-- Other Dependencies -->
     <guava.version>31.0.1-jre</guava.version>
