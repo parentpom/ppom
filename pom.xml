@@ -45,7 +45,7 @@
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>2.2.1</bstats.version>
     <commodore.version>1.11</commodore.version>
-    <cloud.version>1.6.0</cloud.version>
+    <cloud.version>1.6.1</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
     <luckperms.version>5.3</luckperms.version>
     <vault.version>1.7.1</vault.version>
