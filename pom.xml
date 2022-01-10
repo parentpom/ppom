@@ -66,7 +66,7 @@
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
     <holographicdisplays.version>2.4.9</holographicdisplays.version>
     <!-- Database Dependencies -->
-    <hikari.version>5.0.0</hikari.version>
+    <hikari.version>5.0.1</hikari.version>
     <mongo-java-driver.version>3.12.10</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.4.1</mongodb-driver-sync.version>
     <jedis.version>4.0.1</jedis.version>
