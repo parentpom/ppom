@@ -61,7 +61,7 @@
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.7.0</protocollib.version>
     <commandapi.version>6.5.3</commandapi.version>
-    <itemsadder-api.version>2.5.0</itemsadder-api.version>
+    <itemsadder-api.version>2.5.4</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
     <holographicdisplays.version>2.4.9</holographicdisplays.version>
@@ -72,7 +72,7 @@
     <jedis.version>4.0.1</jedis.version>
     <lettuce.version>6.1.6.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
-    <minio.version>8.3.4</minio.version>
+    <minio.version>8.3.5</minio.version>
     <morphia.version>2.2.3</morphia.version>
     <!-- File/Configuration Dependencies -->
     <configurate.version>4.1.2</configurate.version>
