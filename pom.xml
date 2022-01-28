@@ -43,7 +43,7 @@
     <minimessage.version>4.10.0-SNAPSHOT</minimessage.version>
     <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
-    <bstats.version>2.2.1</bstats.version>
+    <bstats.version>3.0.0</bstats.version>
     <commodore.version>1.11</commodore.version>
     <cloud.version>1.6.1</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
@@ -114,7 +114,7 @@
     <annotations.version>23.0.0</annotations.version>
     <cactoos.version>0.50</cactoos.version>
     <cactoos-matchers.version>0.25</cactoos-matchers.version>
-    <mockito.version>4.2.0</mockito.version>
+    <mockito.version>4.3.1</mockito.version>
     <mockbukkit.version>1.5.2</mockbukkit.version>
     <junit.version>5.8.2</junit.version>
     <jmh.version>1.34</jmh.version>
