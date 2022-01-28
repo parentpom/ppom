@@ -43,7 +43,7 @@
     <minimessage.version>4.10.0-SNAPSHOT</minimessage.version>
     <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
-    <bstats.version>2.2.1</bstats.version>
+    <bstats.version>3.0.0</bstats.version>
     <commodore.version>1.11</commodore.version>
     <cloud.version>1.6.1</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
