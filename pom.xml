@@ -39,7 +39,7 @@
     <java.version>1.8</java.version>
     <minimize.jar>true</minimize.jar>
     <!-- Minecraft Library Dependencies -->
-    <xseries.version>8.6.0.0.1</xseries.version>
+    <xseries.version>8.6.1</xseries.version>
     <minimessage.version>4.10.0-SNAPSHOT</minimessage.version>
     <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
@@ -94,7 +94,7 @@
     <slf4j.version>1.7.33</slf4j.version>
     <disruptor.version>3.4.4</disruptor.version>
     <!-- Networking/Protocol Dependencies-->
-    <protobuf.version>3.19.3</protobuf.version>
+    <protobuf.version>3.19.4</protobuf.version>
     <httpclient.version>4.5.13</httpclient.version>
     <httpclient-cache.version>4.5.13</httpclient-cache.version>
     <httpmine.version>4.5.13</httpmine.version>
