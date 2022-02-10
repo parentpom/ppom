@@ -47,7 +47,7 @@
     <commodore.version>1.12</commodore.version>
     <cloud.version>1.6.1</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
-    <luckperms.version>5.3</luckperms.version>
+    <luckperms.version>5.4</luckperms.version>
     <vault.version>1.7.1</vault.version>
     <permissionsex.version>2.0-SNAPSHOT</permissionsex.version>
     <groupmanager.version>2.2-SNAPSHOT</groupmanager.version>
