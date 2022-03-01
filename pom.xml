@@ -40,7 +40,7 @@
     <minimize.jar>true</minimize.jar>
     <!-- Minecraft Library Dependencies -->
     <xseries.version>8.6.1</xseries.version>
-    <minimessage.version>4.10.0-SNAPSHOT</minimessage.version>
+    <minimessage.version>4.10.0</minimessage.version>
     <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>3.0.0</bstats.version>
