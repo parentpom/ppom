@@ -44,8 +44,8 @@
     <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>3.0.0</bstats.version>
-    <commodore.version>1.12</commodore.version>
-    <cloud.version>1.6.1</cloud.version>
+    <commodore.version>1.13</commodore.version>
+    <cloud.version>1.6.2</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
     <luckperms.version>5.4</luckperms.version>
     <vault.version>1.7.1</vault.version>
@@ -103,7 +103,7 @@
     <netty.version>4.1.74.Final</netty.version>
     <pulsar.version>2.9.1</pulsar.version>
     <!-- Other Dependencies -->
-    <guava.version>31.0.1-jre</guava.version>
+    <guava.version>31.1-jre</guava.version>
     <fastutil.version>8.5.8</fastutil.version>
     <commons-codec.version>1.15</commons-codec.version>
     <jasypt.version>1.9.3</jasypt.version>
