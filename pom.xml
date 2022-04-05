@@ -135,7 +135,7 @@
     <maven-checkstyle.version>3.1.2</maven-checkstyle.version>
     <nexus.version>1.6.12</nexus.version>
     <checkstyle.version>10.1</checkstyle.version>
-    <jacoco.version>0.8.7</jacoco.version>
+    <jacoco.version>0.8.8</jacoco.version>
   </properties>
   <build>
     <plugins>
