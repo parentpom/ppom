@@ -67,7 +67,7 @@
     <holographicdisplays.version>2.4.9</holographicdisplays.version>
     <!-- Database Dependencies -->
     <hikari.version>5.0.1</hikari.version>
-    <mongo-java-driver.version>3.12.10</mongo-java-driver.version>
+    <mongo-java-driver.version>3.12.11</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.6.0</mongodb-driver-sync.version>
     <jedis.version>4.2.2</jedis.version>
     <lettuce.version>6.1.8.RELEASE</lettuce.version>
@@ -134,7 +134,7 @@
     <maven-gpg.version>3.0.1</maven-gpg.version>
     <maven-checkstyle.version>3.1.2</maven-checkstyle.version>
     <nexus.version>1.6.13</nexus.version>
-    <checkstyle.version>10.1</checkstyle.version>
+    <checkstyle.version>10.2</checkstyle.version>
     <jacoco.version>0.8.8</jacoco.version>
   </properties>
   <build>
