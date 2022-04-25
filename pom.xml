@@ -67,7 +67,7 @@
     <holographicdisplays.version>2.4.9</holographicdisplays.version>
     <!-- Database Dependencies -->
     <hikari.version>5.0.1</hikari.version>
-    <mongo-java-driver.version>3.12.10</mongo-java-driver.version>
+    <mongo-java-driver.version>3.12.11</mongo-java-driver.version>
     <mongodb-driver-sync.version>4.6.0</mongodb-driver-sync.version>
     <jedis.version>4.2.2</jedis.version>
     <lettuce.version>6.1.8.RELEASE</lettuce.version>
