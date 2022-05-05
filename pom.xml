@@ -72,7 +72,7 @@
     <jedis.version>4.2.2</jedis.version>
     <lettuce.version>6.1.8.RELEASE</lettuce.version>
     <jongo.version>1.5.0</jongo.version>
-    <minio.version>8.3.9</minio.version>
+    <minio.version>8.4.0</minio.version>
     <morphia.version>2.2.6</morphia.version>
     <jdbi.version>3.28.0</jdbi.version>
     <!-- File/Configuration Dependencies -->
