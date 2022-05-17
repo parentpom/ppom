@@ -41,7 +41,7 @@
     <!-- Minecraft Library Dependencies -->
     <xseries.version>8.7.1</xseries.version>
     <minimessage.version>4.10.1</minimessage.version>
-    <anvilgui.version>1.5.1-SNAPSHOT</anvilgui.version>
+    <anvilgui.version>1.5.3-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>3.0.0</bstats.version>
     <commodore.version>1.13</commodore.version>
@@ -92,7 +92,7 @@
     <terminalconsoleappender.version>1.3.0</terminalconsoleappender.version>
     <picoli.version>4.6.3</picoli.version>
     <jline.version>3.21.0</jline.version>
-    <slf4j.version>1.7.33</slf4j.version>
+    <slf4j.version>1.7.36</slf4j.version>
     <disruptor.version>3.4.4</disruptor.version>
     <!-- Networking/Protocol Dependencies-->
     <protobuf.version>3.20.1</protobuf.version>
