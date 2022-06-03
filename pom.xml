@@ -74,7 +74,7 @@
     <jongo.version>1.5.0</jongo.version>
     <minio.version>8.4.1</minio.version>
     <morphia.version>2.2.7</morphia.version>
-    <jdbi.version>3.29.0</jdbi.version>
+    <jdbi.version>3.30.0</jdbi.version>
     <!-- File/Configuration Dependencies -->
     <configurate.version>4.1.2</configurate.version>
     <gson.version>2.9.0</gson.version>
