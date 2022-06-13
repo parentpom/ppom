@@ -44,7 +44,7 @@
     <anvilgui.version>1.5.3-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
     <bstats.version>3.0.0</bstats.version>
-    <commodore.version>1.13</commodore.version>
+    <commodore.version>2.0</commodore.version>
     <cloud.version>1.6.2</cloud.version>
     <!-- Minecraft Plugin Dependencies -->
     <luckperms.version>5.4</luckperms.version>
