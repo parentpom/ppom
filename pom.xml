@@ -39,7 +39,7 @@
     <java.version>1.8</java.version>
     <minimize.jar>true</minimize.jar>
     <!-- Minecraft Library Dependencies -->
-    <xseries.version>8.7.1</xseries.version>
+    <xseries.version>8.8.0</xseries.version>
     <minimessage.version>4.11.0</minimessage.version>
     <anvilgui.version>1.5.3-SNAPSHOT</anvilgui.version>
     <nbteditor.version>7.16</nbteditor.version>
