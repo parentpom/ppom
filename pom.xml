@@ -60,7 +60,7 @@
     <fawe.version>1.16-725</fawe.version>
     <citizens.version>2.0.27-SNAPSHOT</citizens.version>
     <protocollib.version>4.8.0</protocollib.version>
-    <commandapi.version>8.3.1</commandapi.version>
+    <commandapi.version>8.4.0</commandapi.version>
     <itemsadder-api.version>3.1.6</itemsadder-api.version>
     <pl3xmap.version>1.0.0-SNAPSHOT</pl3xmap.version>
     <combatlogx.version>10.0.0.0-SNAPSHOT</combatlogx.version>
@@ -81,7 +81,7 @@
     <snakeyaml.version>1.30</snakeyaml.version>
     <jackson.version>2.13.3</jackson.version>
     <nbt.version>6.1</nbt.version>
-    <zip4j.version>2.10.0</zip4j.version>
+    <zip4j.version>2.11.0</zip4j.version>
     <zstd.version>1.5.2-3</zstd.version>
     <flow-nbt.version>2.0.0</flow-nbt.version>
     <okaeri-hjson.version>4.0.0</okaeri-hjson.version>
