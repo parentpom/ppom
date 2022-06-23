@@ -81,7 +81,7 @@
     <snakeyaml.version>1.30</snakeyaml.version>
     <jackson.version>2.13.3</jackson.version>
     <nbt.version>6.1</nbt.version>
-    <zip4j.version>2.11.0</zip4j.version>
+    <zip4j.version>2.11.1</zip4j.version>
     <zstd.version>1.5.2-3</zstd.version>
     <flow-nbt.version>2.0.0</flow-nbt.version>
     <okaeri-hjson.version>4.0.0</okaeri-hjson.version>
